@@ -1,0 +1,140 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.logo > img{
+    width: 150px;
+}
+.list{
+    display: flex;
+    
+    
+}
+.list  > li{
+    padding: 30px;
+    margin: 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.list > li > img{
+    width: 30px;
+    margin-top: -5px;
+    
+}
+.list > li:hover{
+    color: orange;
+}
+.body{
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.res-cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+/* .card{
+    
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+.card {
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    
+}
+
+.card .res-details h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card .res-details h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.res-logo{
+    width: 150px;
+    height: 150px;
+   
+    border-radius: 40px;
+}
+
+.btn1{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 
+
+overflow: hidden;: This property specifies what should happen if content overflows the container's box. When set to hidden, any content that overflows the element's box will be clipped and not visible. It essentially hides any content that extends beyond the boundaries of the container.
+
+text-overflow: ellipsis;: This property specifies how overflowed text should be indicated. When set to ellipsis, it indicates that the text has been truncated and replaced by an ellipsis (...) when it overflows the container. This is commonly used when you want to show only a portion of text and indicate that there is more content that is not visible.
+
+white-space: nowrap;: This property specifies how white-space inside an element is handled. When set to nowrap, it prevents the text from wrapping to the next line. Instead, it forces the text to stay on a single line within the container, regardless of its width. This is useful when you want to prevent long lines of text from wrapping and maintain a single line of text without breaking. It works well in combination with overflow: hidden; and text-overflow: ellipsis; to create a "text overflow ellipsis" effect.
+
+*/
+
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width: 250px;
+    height: 250px;
+    background-color: #f0f0f0;
+}
+
+.loginout{
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.searchbtn{
+    margin: 5px;
+}
+
+.resmenu{
+    display: flex;
+    justify-content: center;
+}
+.menuinfo{
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    /* align-items: center; Center children horizontally */
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.UserFun{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.userclass{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
