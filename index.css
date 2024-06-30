@@ -36,6 +36,9 @@
 .res-cards{
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: initial; */
+    align-items: center;
+    justify-content: center;
    
 }
 /* .card{
@@ -70,8 +73,8 @@
     border: 1px solid black;
 }
 .res-logo{
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
    
     border-radius: 40px;
 }
@@ -95,11 +98,15 @@ white-space: nowrap;: This property specifies how white-space inside an element 
 .shimmer-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+  
 }
 
 .shimmer-card{
-    width: 250px;
-    height: 250px;
+    margin: 1%;
+    padding: 1%;
+    width: 170px;
+    height: 170px;
     background-color: #f0f0f0;
 }
 
